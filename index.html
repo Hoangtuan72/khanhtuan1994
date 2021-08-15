@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> <!--add lang="en"-->
 
 <head>
     <title>Tuan's infomation</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script> <!--The type attribute is unnecessary for JavaScript resources.-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Style+Script&display=swap" rel="stylesheet">
@@ -17,9 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-logo">
-                    <img src="hinhanh/spider.jpg" id="imagem
-                    ">
-
+                    <img src="hinhanh/spider.jpg" id="imagem" alt="spider"> <!-- id on element img: An ID must not contain whitespace and elemen must have an alt.-->
                 </div>
                 <div class="col-8 menu">
                     <ul>
@@ -62,7 +60,9 @@
                     <li>Company: Nidec Sankyo Corporation</li>
                     <li>Position: Electrical Engineer</li>
                     <li>10/2017-10/2019</li>
-                    <hr>
+                </ul>
+                    <hr> <!-- Element hr not allowed as child of element ul in this context-->
+                <ul class="ul-size">
                     <li>Company: Honda Plus VN</li>
                     <li>Position: Internship</li>
                     <li>5/2021-now</li>
@@ -74,15 +74,13 @@
     <div class="info">
         
     </div>
-   
 
+    
     <script src="script.js"></script>
-
-</body>
-
-
-<footer>
+    
+<footer> <!--footer must be in body-->
 
 </footer>
 
+</body>
 </html>
