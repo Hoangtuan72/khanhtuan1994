@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Abel; /* delete '' */
 }
 .col-logo img{
     height: 100px;
@@ -40,9 +41,7 @@ a{
     align-items: center;
 }
 
-*{
-    font-family: 'Abel';
-}
+
 body {
     background: orange;
 }
@@ -52,7 +51,7 @@ body {
 }
 
 .text-center {
-    font-weight: 2000;
+    font-weight: 2000px; /* add px*/
     font-size: 400%;
 }
 
@@ -91,8 +90,9 @@ body {
     margin-top: 200px;
     
 }
+
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     
 
 
